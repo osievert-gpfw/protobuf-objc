@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ProtocolBuffers/ProtocolBuffers.h>
+#import "ProtocolBuffers.h"
 
 #import "Descriptor.pb.h"
 // @@protoc_insertion_point(imports)

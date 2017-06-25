@@ -6,7 +6,9 @@ apple_library(
     exported_headers = glob(["src/runtime/Classes/*.h"]),
     preprocessor_flags = [],
     exported_preprocessor_flags = [],
-    compiler_flags = [],
+    compiler_flags = [
+        "-Isrc/runtime/Classes",
+    ],
     deps = [],
     frameworks = [],
     visibility = ["PUBLIC"],
