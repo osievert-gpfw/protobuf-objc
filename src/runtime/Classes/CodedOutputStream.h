@@ -30,6 +30,8 @@
  * @author Cyrus Najmabadi
  */
 
+#import <Foundation/Foundation.h>
+
 @class PBUnknownFieldSet;
 @class RingBuffer;
 @protocol PBMessage;

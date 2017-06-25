@@ -15,6 +15,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#import <Foundation/Foundation.h>
+
 #import "Message.h"
 
 SInt64 convertFloat64ToInt64(Float64 f);

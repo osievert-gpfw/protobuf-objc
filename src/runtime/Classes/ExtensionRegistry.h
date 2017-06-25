@@ -69,6 +69,8 @@
  * @author Cyrus Najmabadi
  */
 
+#import <Foundation/Foundation.h>
+
 #import "ExtensionField.h"
 
 @interface PBExtensionRegistry : NSObject {
